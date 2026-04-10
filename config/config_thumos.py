@@ -88,6 +88,7 @@ class Config(object):
         self.soft_nms = args.soft_nms
         self.nms_alpha = args.nms_alpha
         self.nms_thresh = args.nms_thresh
+        self.load_weight = args.load_weight
         
         # System parameters
         self.output_dir = args.output_dir
