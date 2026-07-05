@@ -14,14 +14,17 @@ Dataset:
 2. Extract two-stream video features using the I3D model.
 3. Extract video features and text features using the VideoCLIP-XL model.
 
+We provide the pre-extracted video features at: https://drive.google.com/file/d/17wShClfJ3w-srKm78BBPT8Ljz8yFTz0_/view?usp=drive_link
+
 
 ## Training
+Set the correct path to the data.
 ```
     bash ./scripts/train.sh
 ```
 
-We have placed the trained model parameters in the directory "outputs/best_model".
 ## Inference
+We have placed the trained model parameters in the directory "outputs/best_model".
 ```
     bash ./scripts/inference.sh
 ```
